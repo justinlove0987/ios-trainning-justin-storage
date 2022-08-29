@@ -26,6 +26,24 @@ class GridViewController: UIViewController {
 
 extension GridViewController {
     /// - Tag: Grid
+    private func createLayout() -> UICollectionViewLayout {
+        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.2),
+                                              heightDimension: .fractionalHeight(1.0))
+        let item = NSCollectionLayoutItem(layoutSize: itemSize)
+
+        item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
+
+        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+                                               heightDimension: .fractionalWidth(0.2))
+        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize,
+                                                       subitems: [item])
+
+        let section = NSCollectionLayoutSection(group: group)
+
+
+        let layout = UICollectionViewCompositionalLayout(section: section)
+        return layout
+    }
 }
 
 extension GridViewController {
