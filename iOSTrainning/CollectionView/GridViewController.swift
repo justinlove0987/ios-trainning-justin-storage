@@ -33,15 +33,14 @@ extension GridViewController {
 
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
                                                heightDimension: .fractionalWidth(0.2))
+
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 5)
-        let spacing = CGFloat(10)
-        group.interItemSpacing = .fixed(spacing)
 
         let section = NSCollectionLayoutSection(group: group)
-        section.interGroupSpacing = spacing
-        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10)
 
         let layout = UICollectionViewCompositionalLayout(section: section)
+
+
         return layout
     }
 }
