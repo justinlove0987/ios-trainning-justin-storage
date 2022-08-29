@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D0C412BD28BC94B100590712 /* MainCollectionViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412BC28BC94B100590712 /* MainCollectionViewTableViewController.swift */; };
+		D0C412C028BC98F000590712 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412BF28BC98F000590712 /* TextCell.swift */; };
 		D0ECEE5A28BC8F680085F554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ECEE5928BC8F680085F554 /* AppDelegate.swift */; };
 		D0ECEE5C28BC8F680085F554 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ECEE5B28BC8F680085F554 /* SceneDelegate.swift */; };
 		D0ECEE6328BC8F690085F554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ECEE6228BC8F690085F554 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		D0C412BC28BC94B100590712 /* MainCollectionViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewTableViewController.swift; sourceTree = "<group>"; };
+		D0C412BF28BC98F000590712 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		D0ECEE5628BC8F680085F554 /* iOSTrainning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTrainning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0ECEE5928BC8F680085F554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0ECEE5B28BC8F680085F554 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0C412BE28BC98A800590712 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D0C412BF28BC98F000590712 /* TextCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		D0ECEE4D28BC8F680085F554 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +68,10 @@
 		D0ECEE5828BC8F680085F554 /* iOSTrainning */ = {
 			isa = PBXGroup;
 			children = (
-				D0ECEE6728BC8F690085F554 /* Info.plist */,
 				D0ECEE7228BC906C0085F554 /* Utils */,
 				D0ECEE6F28BC900C0085F554 /* CollectionView */,
+				D0C412BE28BC98A800590712 /* CustomViews */,
+				D0ECEE6728BC8F690085F554 /* Info.plist */,
 			);
 			path = iOSTrainning;
 			sourceTree = "<group>";
@@ -160,6 +171,7 @@
 				D0ECEE7128BC90530085F554 /* GridViewController.swift in Sources */,
 				D0C412BD28BC94B100590712 /* MainCollectionViewTableViewController.swift in Sources */,
 				D0ECEE5A28BC8F680085F554 /* AppDelegate.swift in Sources */,
+				D0C412C028BC98F000590712 /* TextCell.swift in Sources */,
 				D0ECEE5C28BC8F680085F554 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
