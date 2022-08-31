@@ -13,12 +13,12 @@ class NestedGroupsViewController: UIViewController {
         case main
     }
 
-    var dataSource: UICollectionViewDiffableDataSource<Section, Int>! = nil
+    var dataSource: UICollectionViewDiffableDataSource<Int, Int>! = nil
     var collectionView: UICollectionView! = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Nested Groups"
+        navigationItem.title = "Orthogonal Sections"
         configureHierarchy()
         configureDataSource()
     }
@@ -68,6 +68,7 @@ extension NestedGroupsViewController {
                                                    heightDimension: .fractionalHeight(0.4)),
                 subitems: [leadingItem, trailingGroup])
             let section = NSCollectionLayoutSection(group: nestedGroup)
+            section.orthogonalScrollingBehavior = .continuous
             return section
 
         }
@@ -97,16 +98,22 @@ extension NestedGroupsViewController {
             cell.label.font = UIFont.preferredFont(forTextStyle: .title1)
         }
 
-        dataSource = UICollectionViewDiffableDataSource<Section, Int>(collectionView: collectionView) {
+        dataSource = UICollectionViewDiffableDataSource<Int, Int>(collectionView: collectionView) {
             (collectionView: UICollectionView, indexPath: IndexPath, identifier: Int) -> UICollectionViewCell? in
             // Return the cell.
             return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: identifier)
         }
 
         // initial data
-        var snapshot = NSDiffableDataSourceSnapshot<Section, Int>()
-        snapshot.appendSections([Section.main])
-        snapshot.appendItems(Array(0..<100))
+        var snapshot = NSDiffableDataSourceSnapshot<Int, Int>()
+        var identifierOffset = 0
+        let itemsPerSection = 30
+        for section in 0..<5 {
+            snapshot.appendSections([section])
+            let maxIdentifier = identifierOffset + itemsPerSection
+            snapshot.appendItems(Array(identifierOffset..<maxIdentifier))
+            identifierOffset += itemsPerSection
+        }
         dataSource.apply(snapshot, animatingDifferences: false)
     }
 }
