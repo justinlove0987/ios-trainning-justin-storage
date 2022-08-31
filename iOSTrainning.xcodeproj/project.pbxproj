@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0269F0828BEFD57007272EE /* SectionDecorationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0269F0728BEFD57007272EE /* SectionDecorationViewController.swift */; };
+		D0269F0A28BEFD95007272EE /* SectionBackgroundDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0269F0928BEFD95007272EE /* SectionBackgroundDecorationView.swift */; };
 		D0C412BD28BC94B100590712 /* MainCollectionViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412BC28BC94B100590712 /* MainCollectionViewTableViewController.swift */; };
 		D0C412C028BC98F000590712 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412BF28BC98F000590712 /* TextCell.swift */; };
 		D0C412C228BCB8C600590712 /* DistinctSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412C128BCB8C600590712 /* DistinctSectionsViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0269F0728BEFD57007272EE /* SectionDecorationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDecorationViewController.swift; sourceTree = "<group>"; };
+		D0269F0928BEFD95007272EE /* SectionBackgroundDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackgroundDecorationView.swift; sourceTree = "<group>"; };
 		D0C412BC28BC94B100590712 /* MainCollectionViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewTableViewController.swift; sourceTree = "<group>"; };
 		D0C412BF28BC98F000590712 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		D0C412C128BCB8C600590712 /* DistinctSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctSectionsViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 				D0C412BF28BC98F000590712 /* TextCell.swift */,
 				D0C412C328BCB8FF00590712 /* ListCell.swift */,
 				D0DE375428BE06C700B361E2 /* TitleSupplementaryView.swift */,
+				D0269F0928BEFD95007272EE /* SectionBackgroundDecorationView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				D0ECEE7028BC90530085F554 /* GridViewController.swift */,
 				D0C412C128BCB8C600590712 /* DistinctSectionsViewController.swift */,
 				D0DE375228BE069B00B361E2 /* SectionHeadersFootersViewController.swift */,
+				D0269F0728BEFD57007272EE /* SectionDecorationViewController.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -183,8 +189,10 @@
 				D0ECEE7128BC90530085F554 /* GridViewController.swift in Sources */,
 				D0C412BD28BC94B100590712 /* MainCollectionViewTableViewController.swift in Sources */,
 				D0ECEE5A28BC8F680085F554 /* AppDelegate.swift in Sources */,
+				D0269F0A28BEFD95007272EE /* SectionBackgroundDecorationView.swift in Sources */,
 				D0C412C028BC98F000590712 /* TextCell.swift in Sources */,
 				D0C412C428BCB8FF00590712 /* ListCell.swift in Sources */,
+				D0269F0828BEFD57007272EE /* SectionDecorationViewController.swift in Sources */,
 				D0ECEE5C28BC8F680085F554 /* SceneDelegate.swift in Sources */,
 				D0C412C228BCB8C600590712 /* DistinctSectionsViewController.swift in Sources */,
 				D0DE375328BE069B00B361E2 /* SectionHeadersFootersViewController.swift in Sources */,

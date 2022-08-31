@@ -9,9 +9,9 @@ import UIKit
 
 class MainCollectionViewTableViewController: UITableViewController {
 
-    private var rowTitlesInSection = ["Grid", "Distinct Sections", "Section Headers/Footers"]
+    private var rowTitlesInSection = ["Grid", "Distinct Sections", "Section Headers/Footers", "Section Background Decoration View"]
 
-    private let presentingViewControllers = [GridViewController(), DistinctSectionsViewController(), SectionHeadersFootersViewController()]
+    private let presentingViewControllers = [GridViewController(), DistinctSectionsViewController(), SectionHeadersFootersViewController(), SectionDecorationViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
