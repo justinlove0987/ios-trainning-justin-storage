@@ -38,7 +38,15 @@ extension SectionDecorationViewController {
         section.interGroupSpacing = 5
         section.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
 
+        let sectionBackgorunDecoration = NSCollectionLayoutDecorationItem.background(elementKind: SectionDecorationViewController.sectionBackgroundDecorationElementKind)
+
+        sectionBackgorunDecoration.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
+
+        section.decorationItems = [sectionBackgorunDecoration]
+
         let layout = UICollectionViewCompositionalLayout(section: section)
+
+        layout.register(SectionBackgroundDecorationView.self, forDecorationViewOfKind: SectionDecorationViewController.sectionBackgroundDecorationElementKind)
 
         return layout
     }
