@@ -38,8 +38,17 @@ extension SectionHeadersFootersViewController {
         section.interGroupSpacing = 5
         section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10)
 
-        let layout = UICollectionViewCompositionalLayout(section: section)
+        let headerFooterSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+                                                      heightDimension: .estimated(44))
+        let sectionHeader = NSCollectionLayoutBoundarySupplementaryItem(
+            layoutSize: headerFooterSize,
+            elementKind: SectionHeadersFootersViewController.sectionHeaderElementKind, alignment: .top)
+        let sectionFooter = NSCollectionLayoutBoundarySupplementaryItem(
+            layoutSize: headerFooterSize,
+            elementKind: SectionHeadersFootersViewController.sectionFooterElementKind, alignment: .bottom)
+        section.boundarySupplementaryItems = [sectionHeader, sectionFooter]
 
+        let layout = UICollectionViewCompositionalLayout(section: section)
         return layout
     }
 }
@@ -60,9 +69,32 @@ extension SectionHeadersFootersViewController {
             cell.label.text = "\(indexPath.section),\(indexPath.item)"
         }
 
+        let headerRegistration = UICollectionView.SupplementaryRegistration
+        <TitleSupplementaryView>(elementKind: SectionHeadersFootersViewController.sectionHeaderElementKind) {
+            (supplementaryView, string, indexPath) in
+            supplementaryView.label.text = "\(string) for section \(indexPath.section)"
+            supplementaryView.backgroundColor = .lightGray
+            supplementaryView.layer.borderColor = UIColor.black.cgColor
+            supplementaryView.layer.borderWidth = 1.0
+        }
+
+        let footerRegistration = UICollectionView.SupplementaryRegistration
+        <TitleSupplementaryView>(elementKind: SectionHeadersFootersViewController.sectionFooterElementKind) {
+            (supplementaryView, string, indexPath) in
+            supplementaryView.label.text = "\(string) for section \(indexPath.section)"
+            supplementaryView.backgroundColor = .lightGray
+            supplementaryView.layer.borderColor = UIColor.black.cgColor
+            supplementaryView.layer.borderWidth = 1.0
+        }
+
         dataSource = UICollectionViewDiffableDataSource<Int, Int>(collectionView: collectionView) {
             (collectionView: UICollectionView, indexPath: IndexPath, identifier: Int) -> UICollectionViewCell? in
             return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: identifier)
+        }
+
+        dataSource.supplementaryViewProvider = { (view, kind, index) in
+            return self.collectionView.dequeueConfiguredReusableSupplementary(
+                using: kind == SectionHeadersFootersViewController.sectionHeaderElementKind ? headerRegistration : footerRegistration, for: index)
         }
 
         // initial data
