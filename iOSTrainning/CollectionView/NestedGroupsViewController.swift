@@ -69,6 +69,7 @@ extension NestedGroupsViewController {
                 subitems: [leadingItem, trailingGroup])
             let section = NSCollectionLayoutSection(group: nestedGroup)
             section.orthogonalScrollingBehavior = .continuous
+
             return section
 
         }
