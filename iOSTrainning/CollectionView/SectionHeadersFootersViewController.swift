@@ -46,6 +46,10 @@ extension SectionHeadersFootersViewController {
         let sectionFooter = NSCollectionLayoutBoundarySupplementaryItem(
             layoutSize: headerFooterSize,
             elementKind: SectionHeadersFootersViewController.sectionFooterElementKind, alignment: .bottom)
+
+        sectionHeader.pinToVisibleBounds = true
+        sectionHeader.zIndex = 2
+        
         section.boundarySupplementaryItems = [sectionHeader, sectionFooter]
 
         let layout = UICollectionViewCompositionalLayout(section: section)
