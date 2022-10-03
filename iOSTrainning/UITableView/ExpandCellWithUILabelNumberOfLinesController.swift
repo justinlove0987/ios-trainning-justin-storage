@@ -34,4 +34,13 @@ class ExpandCellWithUILabelNumberOfLinesController: UITableViewController {
         return cell
     }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let cell = tableView.cellForRow(at: indexPath) {
+            let label = cell.textLabel
+            tableView.beginUpdates()
+            label?.numberOfLines = label?.numberOfLines == 0 ? 1 : 0
+            tableView.endUpdates()
+        }
+    }
+
 }
