@@ -2,18 +2,16 @@
 //  MainTableViewController.swift
 //  iOSTrainning
 //
-//  Created by justin on 2022/8/29.
+//  Created by justin on 2022/10/3.
 //
 
 import UIKit
 
-class MainTableViewController: UITableViewController {
+class MainUITableViewTableViewController: UITableViewController {
 
-    private let rowTitlesInSection = ["UITableView",
-                                      "CollectionView"]
+    private var rowTitlesInSection = ["ExpandableCell"]
 
-    private let presentingViewControllers = [MainUITableViewTableViewController(),
-                                             MainCollectionViewTableViewController()]
+    private let presentingViewControllers = [ExpandCellWithUILabelNumberOfLinesController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +20,8 @@ class MainTableViewController: UITableViewController {
 
     }
 
+    // MARK: - Table view data source
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return rowTitlesInSection.count
     }
@@ -38,9 +38,7 @@ class MainTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
-        let presentingVC = presentingViewControllers[indexPath.row]
-
-        navigationController?.pushViewController(presentingVC, animated: true)
+        self.navigationController?.pushViewController(presentingViewControllers[indexPath.row], animated: true)
     }
+
 }

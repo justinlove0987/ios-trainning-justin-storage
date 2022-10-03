@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00598E828EADE1B0034E218 /* ExpandCellWithUILabelNumberOfLinesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00598E728EADE1B0034E218 /* ExpandCellWithUILabelNumberOfLinesController.swift */; };
+		D00598EA28EADE9A0034E218 /* MainUITableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00598E928EADE9A0034E218 /* MainUITableViewTableViewController.swift */; };
 		D0269F0828BEFD57007272EE /* SectionDecorationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0269F0728BEFD57007272EE /* SectionDecorationViewController.swift */; };
 		D0269F0A28BEFD95007272EE /* SectionBackgroundDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0269F0928BEFD95007272EE /* SectionBackgroundDecorationView.swift */; };
 		D0269F0C28BF0383007272EE /* NestedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0269F0B28BF0383007272EE /* NestedGroupsViewController.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00598E728EADE1B0034E218 /* ExpandCellWithUILabelNumberOfLinesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandCellWithUILabelNumberOfLinesController.swift; sourceTree = "<group>"; };
+		D00598E928EADE9A0034E218 /* MainUITableViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUITableViewTableViewController.swift; sourceTree = "<group>"; };
 		D0269F0728BEFD57007272EE /* SectionDecorationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDecorationViewController.swift; sourceTree = "<group>"; };
 		D0269F0928BEFD95007272EE /* SectionBackgroundDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackgroundDecorationView.swift; sourceTree = "<group>"; };
 		D0269F0B28BF0383007272EE /* NestedGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupsViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00598E628EADDD00034E218 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				D00598E928EADE9A0034E218 /* MainUITableViewTableViewController.swift */,
+				D00598E728EADE1B0034E218 /* ExpandCellWithUILabelNumberOfLinesController.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
 		D0C412BE28BC98A800590712 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D0ECEE7228BC906C0085F554 /* Utils */,
+				D00598E628EADDD00034E218 /* UITableView */,
 				D0ECEE6F28BC900C0085F554 /* CollectionView */,
 				D0C412BE28BC98A800590712 /* CustomViews */,
 				D0ECEE6728BC8F690085F554 /* Info.plist */,
@@ -201,6 +215,8 @@
 				D0C412C228BCB8C600590712 /* DistinctSectionsViewController.swift in Sources */,
 				D0DE375328BE069B00B361E2 /* SectionHeadersFootersViewController.swift in Sources */,
 				D0DE375528BE06C700B361E2 /* TitleSupplementaryView.swift in Sources */,
+				D00598EA28EADE9A0034E218 /* MainUITableViewTableViewController.swift in Sources */,
+				D00598E828EADE1B0034E218 /* ExpandCellWithUILabelNumberOfLinesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
