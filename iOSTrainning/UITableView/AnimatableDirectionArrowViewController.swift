@@ -38,17 +38,10 @@ class AnimatableDirectionArrowViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ArrowImageCell else { return UITableViewCell() }
 
-        cell.setArrowDirection(datas[indexPath.row].isTapped ? .up : .down, animated: false)
-
         return cell
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let cell = tableView.cellForRow(at: indexPath) as? ArrowImageCell else { return }
-
-        datas[indexPath.row].isTapped.toggle()
-
-        cell.setArrowDirection(datas[indexPath.row].isTapped ? .up : .down, animated: true)
     }
 
 }
