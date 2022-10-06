@@ -9,9 +9,9 @@ import UIKit
 
 class MainUITableViewTableViewController: UITableViewController {
 
-    private var rowTitlesInSection = ["ExpandableCell"]
+    private var rowTitlesInSection = ["ExpandableCell", "Animatable Arrow"]
 
-    private let presentingViewControllers = [ExpandCellWithUILabelNumberOfLinesController()]
+    private let presentingViewControllers = [ExpandCellWithUILabelNumberOfLinesController(), AnimatableDirectionArrowViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
