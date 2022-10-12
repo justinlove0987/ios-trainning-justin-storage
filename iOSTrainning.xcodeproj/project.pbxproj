@@ -14,6 +14,9 @@
 		D0269F0C28BF0383007272EE /* NestedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0269F0B28BF0383007272EE /* NestedGroupsViewController.swift */; };
 		D03CE71A28EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CE71928EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift */; };
 		D03CE72028EEA3D2002452E3 /* ArrowImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CE71F28EEA3D2002452E3 /* ArrowImageCell.swift */; };
+		D0A8109528F6B19000D477C8 /* MainAnimationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8109428F6B19000D477C8 /* MainAnimationTableViewController.swift */; };
+		D0A8109728F6B21200D477C8 /* RotatableView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8109628F6B21200D477C8 /* RotatableView_ViewController.swift */; };
+		D0A8109B28F6B50800D477C8 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8109A28F6B50800D477C8 /* AnimationExtension.swift */; };
 		D0C412BD28BC94B100590712 /* MainCollectionViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412BC28BC94B100590712 /* MainCollectionViewTableViewController.swift */; };
 		D0C412C028BC98F000590712 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412BF28BC98F000590712 /* TextCell.swift */; };
 		D0C412C228BCB8C600590712 /* DistinctSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C412C128BCB8C600590712 /* DistinctSectionsViewController.swift */; };
@@ -36,6 +39,9 @@
 		D0269F0B28BF0383007272EE /* NestedGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupsViewController.swift; sourceTree = "<group>"; };
 		D03CE71928EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDirectionArrowViewController.swift; sourceTree = "<group>"; };
 		D03CE71F28EEA3D2002452E3 /* ArrowImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowImageCell.swift; sourceTree = "<group>"; };
+		D0A8109428F6B19000D477C8 /* MainAnimationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimationTableViewController.swift; sourceTree = "<group>"; };
+		D0A8109628F6B21200D477C8 /* RotatableView_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableView_ViewController.swift; sourceTree = "<group>"; };
+		D0A8109A28F6B50800D477C8 /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
 		D0C412BC28BC94B100590712 /* MainCollectionViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewTableViewController.swift; sourceTree = "<group>"; };
 		D0C412BF28BC98F000590712 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		D0C412C128BCB8C600590712 /* DistinctSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctSectionsViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +79,16 @@
 			path = UITableView;
 			sourceTree = "<group>";
 		};
+		D0A8109328F6B16F00D477C8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8109428F6B19000D477C8 /* MainAnimationTableViewController.swift */,
+				D0A8109628F6B21200D477C8 /* RotatableView_ViewController.swift */,
+				D0A8109A28F6B50800D477C8 /* AnimationExtension.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		D0C412BE28BC98A800590712 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				D0ECEE7228BC906C0085F554 /* Utils */,
+				D0A8109328F6B16F00D477C8 /* Animation */,
 				D00598E628EADDD00034E218 /* UITableView */,
 				D0ECEE6F28BC900C0085F554 /* CollectionView */,
 				D0C412BE28BC98A800590712 /* CustomViews */,
@@ -209,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03CE72028EEA3D2002452E3 /* ArrowImageCell.swift in Sources */,
+				D0A8109528F6B19000D477C8 /* MainAnimationTableViewController.swift in Sources */,
 				D0ECEE6E28BC8FDB0085F554 /* MainTableViewController.swift in Sources */,
+				D0A8109728F6B21200D477C8 /* RotatableView_ViewController.swift in Sources */,
 				D0269F0C28BF0383007272EE /* NestedGroupsViewController.swift in Sources */,
 				D0ECEE7128BC90530085F554 /* GridViewController.swift in Sources */,
 				D0C412BD28BC94B100590712 /* MainCollectionViewTableViewController.swift in Sources */,
@@ -218,6 +237,7 @@
 				D0C412C028BC98F000590712 /* TextCell.swift in Sources */,
 				D0C412C428BCB8FF00590712 /* ListCell.swift in Sources */,
 				D03CE71A28EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift in Sources */,
+				D0A8109B28F6B50800D477C8 /* AnimationExtension.swift in Sources */,
 				D0269F0828BEFD57007272EE /* SectionDecorationViewController.swift in Sources */,
 				D0ECEE5C28BC8F680085F554 /* SceneDelegate.swift in Sources */,
 				D0C412C228BCB8C600590712 /* DistinctSectionsViewController.swift in Sources */,
