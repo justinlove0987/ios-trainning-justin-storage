@@ -7,6 +7,8 @@
 
 import UIKit
 
+// 請實作一個會重複旋轉的searching image
+
 class RotatableView_ViewController: UIViewController {
 
     private var searchImageView = UIImageView()
@@ -28,8 +30,5 @@ class RotatableView_ViewController: UIViewController {
             searchImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
 
         ])
-
-        searchImageView.startRotateAnimation(true, duration: 1)
-
     }
 }
