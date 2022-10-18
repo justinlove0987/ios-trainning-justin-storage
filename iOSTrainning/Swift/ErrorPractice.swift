@@ -14,7 +14,7 @@ class ErrorPractice: UIViewController {
 
         // 請實作一個throwing error的例子
         let loginResult = try? login(username: "")
-        print(loginResult)
+        // print(loginResult)
 
     }
 

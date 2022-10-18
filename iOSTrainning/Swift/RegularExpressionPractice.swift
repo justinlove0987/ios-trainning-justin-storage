@@ -15,7 +15,7 @@ class RegularExpressionPractice: UIViewController {
 
         // 請實作檢查下方phoneNumber是否符合手機格式。
 
-        let phoneNumber = "0988096392"
+        // let phoneNumber = "0988096392"
 
 
     }

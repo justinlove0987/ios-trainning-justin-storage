@@ -15,7 +15,8 @@ class MainTableViewController: UITableViewController {
         "Animation",
         "Constraint",
         "Swift",
-        "Protocol"
+        "Protocol",
+        "Type"
     ]
 
     private var presentingViewControllers = [
@@ -24,7 +25,8 @@ class MainTableViewController: UITableViewController {
         MainAnimationTableViewController(),
         MainConstraintViewController(),
         MainSwiftViewController(),
-        MainProtocolViewController()
+        MainProtocolViewController(),
+        MainTypeViewController()
     ]
 
     override func viewDidLoad() {

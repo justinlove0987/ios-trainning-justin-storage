@@ -23,6 +23,8 @@
 		D0536E0828FE8F07008A2B06 /* ProtocolPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */; };
 		D0536E1028FEA1E9008A2B06 /* RawRepresentablePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */; };
 		D0536E1228FEA438008A2B06 /* OptionSetPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E1128FEA438008A2B06 /* OptionSetPractice.swift */; };
+		D0536E1628FEA666008A2B06 /* MainTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E1528FEA666008A2B06 /* MainTypeViewController.swift */; };
+		D0536E1828FEA6A2008A2B06 /* ClassPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E1728FEA6A2008A2B06 /* ClassPractice.swift */; };
 		D0869F7A28FE5506007AB36F /* ModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F7928FE5506007AB36F /* ModelTableViewController.swift */; };
 		D0869F8328FE7563007AB36F /* Constraint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0869F8228FE7563007AB36F /* Constraint.storyboard */; };
 		D0869F8528FE7628007AB36F /* BasicHuggingPriority_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */; };
@@ -63,6 +65,8 @@
 		D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPractice.swift; sourceTree = "<group>"; };
 		D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentablePractice.swift; sourceTree = "<group>"; };
 		D0536E1128FEA438008A2B06 /* OptionSetPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSetPractice.swift; sourceTree = "<group>"; };
+		D0536E1528FEA666008A2B06 /* MainTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTypeViewController.swift; sourceTree = "<group>"; };
+		D0536E1728FEA6A2008A2B06 /* ClassPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassPractice.swift; sourceTree = "<group>"; };
 		D0869F7928FE5506007AB36F /* ModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTableViewController.swift; sourceTree = "<group>"; };
 		D0869F8228FE7563007AB36F /* Constraint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Constraint.storyboard; sourceTree = "<group>"; };
 		D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHuggingPriority_ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +123,15 @@
 				D0536E1128FEA438008A2B06 /* OptionSetPractice.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D0536E1428FEA651008A2B06 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				D0536E1528FEA666008A2B06 /* MainTypeViewController.swift */,
+				D0536E1728FEA6A2008A2B06 /* ClassPractice.swift */,
+			);
+			path = Type;
 			sourceTree = "<group>";
 		};
 		D0869F7F28FE58D5007AB36F /* Constraint */ = {
@@ -186,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				D0ECEE7228BC906C0085F554 /* Utils */,
+				D0536E1428FEA651008A2B06 /* Type */,
 				D0536E0028FE8C0A008A2B06 /* Protocol */,
 				D0869F8828FE7BF4007AB36F /* Swift */,
 				D0869F7F28FE58D5007AB36F /* Constraint */,
@@ -310,6 +324,7 @@
 				D0869F8728FE76D8007AB36F /* MainConstraintViewController.swift in Sources */,
 				D0869F8A28FE7C36007AB36F /* MainSwiftViewController.swift in Sources */,
 				D0ECEE5A28BC8F680085F554 /* AppDelegate.swift in Sources */,
+				D0536E1628FEA666008A2B06 /* MainTypeViewController.swift in Sources */,
 				D0536E0828FE8F07008A2B06 /* ProtocolPractice.swift in Sources */,
 				D0269F0A28BEFD95007272EE /* SectionBackgroundDecorationView.swift in Sources */,
 				D0536E0228FE8C20008A2B06 /* MainProtocolViewController.swift in Sources */,
@@ -325,6 +340,7 @@
 				D0C412C228BCB8C600590712 /* DistinctSectionsViewController.swift in Sources */,
 				D0869F8528FE7628007AB36F /* BasicHuggingPriority_ViewController.swift in Sources */,
 				D0DE375328BE069B00B361E2 /* SectionHeadersFootersViewController.swift in Sources */,
+				D0536E1828FEA6A2008A2B06 /* ClassPractice.swift in Sources */,
 				D0DE375528BE06C700B361E2 /* TitleSupplementaryView.swift in Sources */,
 				D00598EA28EADE9A0034E218 /* MainUITableViewTableViewController.swift in Sources */,
 				D0536E1228FEA438008A2B06 /* OptionSetPractice.swift in Sources */,
