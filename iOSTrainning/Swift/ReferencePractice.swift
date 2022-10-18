@@ -16,17 +16,6 @@ class ReferencePractice: UIViewController {
 
         // 請透過Student、Teacher Class實作並解釋weak reference的意思。
 
-        var teacher: Teacher? = Teacher()
-        var student: Student? = Student()
-
-        teacher?.student = student
-        student?.teacher = teacher
-
-        student = nil
-
-        print(student?.teacher)
-        print(teacher?.student)
-
 
     }
 
