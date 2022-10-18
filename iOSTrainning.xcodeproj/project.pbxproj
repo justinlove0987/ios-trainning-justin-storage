@@ -19,7 +19,8 @@
 		D0536DFD28FE8943008A2B06 /* ErrorPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536DFC28FE8943008A2B06 /* ErrorPractice.swift */; };
 		D0536DFF28FE8AD7008A2B06 /* RegularExpressionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536DFE28FE8AD7008A2B06 /* RegularExpressionPractice.swift */; };
 		D0536E0228FE8C20008A2B06 /* MainProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0128FE8C20008A2B06 /* MainProtocolViewController.swift */; };
-		D0536E0428FE8CE5008A2B06 /* CustomStringConvertibleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0328FE8CE5008A2B06 /* CustomStringConvertibleVC.swift */; };
+		D0536E0428FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */; };
+		D0536E0828FE8F07008A2B06 /* ProtocolPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */; };
 		D0869F7A28FE5506007AB36F /* ModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F7928FE5506007AB36F /* ModelTableViewController.swift */; };
 		D0869F8328FE7563007AB36F /* Constraint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0869F8228FE7563007AB36F /* Constraint.storyboard */; };
 		D0869F8528FE7628007AB36F /* BasicHuggingPriority_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */; };
@@ -56,7 +57,8 @@
 		D0536DFC28FE8943008A2B06 /* ErrorPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPractice.swift; sourceTree = "<group>"; };
 		D0536DFE28FE8AD7008A2B06 /* RegularExpressionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionPractice.swift; sourceTree = "<group>"; };
 		D0536E0128FE8C20008A2B06 /* MainProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocolViewController.swift; sourceTree = "<group>"; };
-		D0536E0328FE8CE5008A2B06 /* CustomStringConvertibleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStringConvertibleVC.swift; sourceTree = "<group>"; };
+		D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStringConvertiblePractice.swift; sourceTree = "<group>"; };
+		D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPractice.swift; sourceTree = "<group>"; };
 		D0869F7928FE5506007AB36F /* ModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTableViewController.swift; sourceTree = "<group>"; };
 		D0869F8228FE7563007AB36F /* Constraint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Constraint.storyboard; sourceTree = "<group>"; };
 		D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHuggingPriority_ViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				D0536E0128FE8C20008A2B06 /* MainProtocolViewController.swift */,
-				D0536E0328FE8CE5008A2B06 /* CustomStringConvertibleVC.swift */,
+				D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */,
+				D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -290,7 +293,7 @@
 				D0869F7A28FE5506007AB36F /* ModelTableViewController.swift in Sources */,
 				D0536DFB28FE86AA008A2B06 /* ClosurePractice.swift in Sources */,
 				D0A8109528F6B19000D477C8 /* MainAnimationTableViewController.swift in Sources */,
-				D0536E0428FE8CE5008A2B06 /* CustomStringConvertibleVC.swift in Sources */,
+				D0536E0428FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift in Sources */,
 				D0ECEE6E28BC8FDB0085F554 /* MainTableViewController.swift in Sources */,
 				D0A8109728F6B21200D477C8 /* RotatableView_ViewController.swift in Sources */,
 				D0269F0C28BF0383007272EE /* NestedGroupsViewController.swift in Sources */,
@@ -300,6 +303,7 @@
 				D0869F8728FE76D8007AB36F /* MainConstraintViewController.swift in Sources */,
 				D0869F8A28FE7C36007AB36F /* MainSwiftViewController.swift in Sources */,
 				D0ECEE5A28BC8F680085F554 /* AppDelegate.swift in Sources */,
+				D0536E0828FE8F07008A2B06 /* ProtocolPractice.swift in Sources */,
 				D0269F0A28BEFD95007272EE /* SectionBackgroundDecorationView.swift in Sources */,
 				D0536E0228FE8C20008A2B06 /* MainProtocolViewController.swift in Sources */,
 				D0C412C028BC98F000590712 /* TextCell.swift in Sources */,

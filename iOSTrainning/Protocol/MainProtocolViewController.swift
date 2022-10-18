@@ -13,7 +13,8 @@ class MainProtocolViewController: ModelTableViewController {
         super.viewDidLoad()
 
         presentingViewControllers = [
-            CustomStringConvertibleVC()
+            CustomStringConvertiblePractice(),
+            ProtocolPractice()
         ]
         
     }
