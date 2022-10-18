@@ -15,7 +15,8 @@ class MainSwiftViewController: ModelTableViewController {
         presentingViewControllers = [ArrayPractice(),
                                      ReferencePractice(),
                                      ClosurePractice(),
-                                     ErrorPractice()
+                                     ErrorPractice(),
+                                     RegularExpressionPractice()
         ]
     }
 
