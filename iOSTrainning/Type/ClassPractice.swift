@@ -32,15 +32,6 @@ class ClassPractice: UIViewController {
 
         }
 
-        class Tesla: Car {
-            var range: Double
-
-            override init(make: String, model: String, color: String) {
-                self.range = 300
-                super.init(make: make, model: model, color: color)
-            }
-        }
-
         // 請實作convience initiallizer的例子。
 
 //        class Car {
