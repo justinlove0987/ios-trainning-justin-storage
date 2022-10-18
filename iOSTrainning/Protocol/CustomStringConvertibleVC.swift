@@ -14,19 +14,7 @@ class CustomStringConvertibleVC: UIViewController {
 
         // 請實作CustomStringComvertible protocol的例子。
 
-        let google = Company(name: "Google")
 
-        print("\(google.description)")
-
-
-    }
-
-    struct Company: CustomStringConvertible {
-        let name: String
-
-        var description: String {
-            return "Company is \(name)"
-        }
     }
 
 }
