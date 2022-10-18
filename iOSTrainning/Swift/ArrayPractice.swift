@@ -18,19 +18,6 @@ class ArrayPractice: UIViewController {
         // Ex: ["Bad": 7, "Good": 4]
 
         let ratings: [Double] = [1, 3, 6, 10]
-
-        let result = ratings.reduce(into: [:]) { (result: inout [String: Int], rating: Double) in
-            switch rating {
-            case 1...5:
-                result["Bad", default: 0] += 1
-            case 6...10:
-                result["Good", default: 0] += 1
-            default:
-                break
-            }
-        }
-
-        print(result)
     }
 
 }
