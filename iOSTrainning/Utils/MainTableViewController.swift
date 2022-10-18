@@ -9,13 +9,23 @@ import UIKit
 
 class MainTableViewController: UITableViewController {
 
-    private let rowTitlesInSection = ["UITableView",
-                                      "CollectionView", "Animation", "Constraint", "Swift"]
+    private let rowTitlesInSection = [
+        "UITableView",
+        "CollectionView",
+        "Animation",
+        "Constraint",
+        "Swift",
+        "Protocol"
+    ]
 
-    private var presentingViewControllers = [MainUITableViewTableViewController(),
-                                             MainCollectionViewTableViewController(),
-                                             MainAnimationTableViewController(),
-                                             MainConstraintViewController(), MainSwiftViewController()]
+    private var presentingViewControllers = [
+        MainUITableViewTableViewController(),
+        MainCollectionViewTableViewController(),
+        MainAnimationTableViewController(),
+        MainConstraintViewController(),
+        MainSwiftViewController(),
+        MainProtocolViewController()
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
