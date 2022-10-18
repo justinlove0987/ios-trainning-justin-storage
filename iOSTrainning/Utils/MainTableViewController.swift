@@ -10,16 +10,17 @@ import UIKit
 class MainTableViewController: UITableViewController {
 
     private let rowTitlesInSection = ["UITableView",
-                                      "CollectionView", "Animation"]
+                                      "CollectionView", "Animation", "Constraint"]
 
-    private let presentingViewControllers = [MainUITableViewTableViewController(),
-                                             MainCollectionViewTableViewController(), MainAnimationTableViewController()]
+    private var presentingViewControllers = [MainUITableViewTableViewController(),
+                                             MainCollectionViewTableViewController(),
+                                             MainAnimationTableViewController(),
+                                             MainConstraintViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
