@@ -22,10 +22,6 @@ class ClassPractice: UIViewController {
                 self.color = color
                 self.model = model
             }
-            
-            convenience init(color: String) {
-                self.init(color: color, model: "rav4")
-            }
         }
     }
 
