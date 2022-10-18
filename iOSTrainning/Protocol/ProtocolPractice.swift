@@ -8,10 +8,7 @@
 import UIKit
 
 protocol Parser {
-    associatedtype Input
-    associatedtype Output
-
-    func parse(input: Input) -> Output
+    func parse(input: String) -> String
 }
 
 class ProtocolPractice: UIViewController {
