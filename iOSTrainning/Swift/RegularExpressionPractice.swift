@@ -17,10 +17,6 @@ class RegularExpressionPractice: UIViewController {
 
         let phoneNumber = "0988096392"
 
-        let isPhoneNumber = phoneNumber.range(of: "09[0-9]{8}", options: .regularExpression) != nil
-
-        print(isPhoneNumber)
-
 
     }
 }
