@@ -14,6 +14,7 @@
 		D0269F0C28BF0383007272EE /* NestedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0269F0B28BF0383007272EE /* NestedGroupsViewController.swift */; };
 		D03CE71A28EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CE71928EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift */; };
 		D03CE72028EEA3D2002452E3 /* ArrowImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CE71F28EEA3D2002452E3 /* ArrowImageCell.swift */; };
+		D0536DF928FE84D8008A2B06 /* ReferencePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536DF828FE84D8008A2B06 /* ReferencePractice.swift */; };
 		D0869F7A28FE5506007AB36F /* ModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F7928FE5506007AB36F /* ModelTableViewController.swift */; };
 		D0869F8328FE7563007AB36F /* Constraint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0869F8228FE7563007AB36F /* Constraint.storyboard */; };
 		D0869F8528FE7628007AB36F /* BasicHuggingPriority_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */; };
@@ -45,6 +46,7 @@
 		D0269F0B28BF0383007272EE /* NestedGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupsViewController.swift; sourceTree = "<group>"; };
 		D03CE71928EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDirectionArrowViewController.swift; sourceTree = "<group>"; };
 		D03CE71F28EEA3D2002452E3 /* ArrowImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowImageCell.swift; sourceTree = "<group>"; };
+		D0536DF828FE84D8008A2B06 /* ReferencePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferencePractice.swift; sourceTree = "<group>"; };
 		D0869F7928FE5506007AB36F /* ModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTableViewController.swift; sourceTree = "<group>"; };
 		D0869F8228FE7563007AB36F /* Constraint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Constraint.storyboard; sourceTree = "<group>"; };
 		D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHuggingPriority_ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				D0869F8928FE7C36007AB36F /* MainSwiftViewController.swift */,
 				D0869F8B28FE7D80007AB36F /* ArrayPractice.swift */,
+				D0536DF828FE84D8008A2B06 /* ReferencePractice.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				D0269F0A28BEFD95007272EE /* SectionBackgroundDecorationView.swift in Sources */,
 				D0C412C028BC98F000590712 /* TextCell.swift in Sources */,
 				D0C412C428BCB8FF00590712 /* ListCell.swift in Sources */,
+				D0536DF928FE84D8008A2B06 /* ReferencePractice.swift in Sources */,
 				D03CE71A28EEA1C2002452E3 /* AnimatableDirectionArrowViewController.swift in Sources */,
 				D0869F8C28FE7D80007AB36F /* ArrayPractice.swift in Sources */,
 				D0A8109B28F6B50800D477C8 /* AnimationExtension.swift in Sources */,

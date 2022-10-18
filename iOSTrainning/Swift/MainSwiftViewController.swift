@@ -12,7 +12,7 @@ class MainSwiftViewController: ModelTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        presentingViewControllers = [ArrayPractice()]
+        presentingViewControllers = [ArrayPractice(), ReferencePractice()]
     }
 
 }
