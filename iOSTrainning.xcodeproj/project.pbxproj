@@ -22,6 +22,7 @@
 		D0536E0428FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */; };
 		D0536E0828FE8F07008A2B06 /* ProtocolPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */; };
 		D0536E1028FEA1E9008A2B06 /* RawRepresentablePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */; };
+		D0536E1228FEA438008A2B06 /* OptionSetPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E1128FEA438008A2B06 /* OptionSetPractice.swift */; };
 		D0869F7A28FE5506007AB36F /* ModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F7928FE5506007AB36F /* ModelTableViewController.swift */; };
 		D0869F8328FE7563007AB36F /* Constraint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0869F8228FE7563007AB36F /* Constraint.storyboard */; };
 		D0869F8528FE7628007AB36F /* BasicHuggingPriority_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */; };
@@ -61,6 +62,7 @@
 		D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStringConvertiblePractice.swift; sourceTree = "<group>"; };
 		D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPractice.swift; sourceTree = "<group>"; };
 		D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentablePractice.swift; sourceTree = "<group>"; };
+		D0536E1128FEA438008A2B06 /* OptionSetPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSetPractice.swift; sourceTree = "<group>"; };
 		D0869F7928FE5506007AB36F /* ModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTableViewController.swift; sourceTree = "<group>"; };
 		D0869F8228FE7563007AB36F /* Constraint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Constraint.storyboard; sourceTree = "<group>"; };
 		D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHuggingPriority_ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */,
 				D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */,
 				D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */,
+				D0536E1128FEA438008A2B06 /* OptionSetPractice.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				D0DE375328BE069B00B361E2 /* SectionHeadersFootersViewController.swift in Sources */,
 				D0DE375528BE06C700B361E2 /* TitleSupplementaryView.swift in Sources */,
 				D00598EA28EADE9A0034E218 /* MainUITableViewTableViewController.swift in Sources */,
+				D0536E1228FEA438008A2B06 /* OptionSetPractice.swift in Sources */,
 				D00598E828EADE1B0034E218 /* ExpandCellWithUILabelNumberOfLinesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
