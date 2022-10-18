@@ -13,18 +13,6 @@ import UIKit
 
 struct Course {}
 
-struct InternatinalStudent: VerifiedStudent {
-    var courses: [Course]
-
-    mutating func enroll(_ course: Course) {
-
-    }
-}
-
-protocol VerifiedStudent: Student {
-
-}
-
 protocol Student {
     var courses: [Course] { get set }
     mutating func enroll(_ course: Course)
