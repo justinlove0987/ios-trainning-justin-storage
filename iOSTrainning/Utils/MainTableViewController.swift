@@ -10,12 +10,12 @@ import UIKit
 class MainTableViewController: UITableViewController {
 
     private let rowTitlesInSection = ["UITableView",
-                                      "CollectionView", "Animation", "Constraint"]
+                                      "CollectionView", "Animation", "Constraint", "Swift"]
 
     private var presentingViewControllers = [MainUITableViewTableViewController(),
                                              MainCollectionViewTableViewController(),
                                              MainAnimationTableViewController(),
-                                             MainConstraintViewController()]
+                                             MainConstraintViewController(), MainSwiftViewController()]
 
     override func viewDidLoad() {
         super.viewDidLoad()

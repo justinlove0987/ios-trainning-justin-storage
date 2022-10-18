@@ -13,7 +13,7 @@ class MainConstraintViewController: ModelTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         presentingViewControllers = [
             UIStoryboard(name: reuseStoaryboardName, bundle: nil).instantiateViewController(withIdentifier: "BasicHuggingPriority_ViewController")
         ]
