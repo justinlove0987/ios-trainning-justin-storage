@@ -14,9 +14,9 @@ class MainSwiftViewController: ModelTableViewController {
 
         presentingViewControllers = [ArrayPractice(),
                                      ReferencePractice(),
-                                     ClosurePractice()]
-
-//        _ = presentingViewControllers.map { $0.view.backgroundColor = .white }
+                                     ClosurePractice(),
+                                     ErrorPractice()
+        ]
     }
 
 }
