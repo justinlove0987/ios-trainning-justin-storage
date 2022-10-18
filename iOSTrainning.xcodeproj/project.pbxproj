@@ -21,6 +21,7 @@
 		D0536E0228FE8C20008A2B06 /* MainProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0128FE8C20008A2B06 /* MainProtocolViewController.swift */; };
 		D0536E0428FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */; };
 		D0536E0828FE8F07008A2B06 /* ProtocolPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */; };
+		D0536E1028FEA1E9008A2B06 /* RawRepresentablePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */; };
 		D0869F7A28FE5506007AB36F /* ModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F7928FE5506007AB36F /* ModelTableViewController.swift */; };
 		D0869F8328FE7563007AB36F /* Constraint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0869F8228FE7563007AB36F /* Constraint.storyboard */; };
 		D0869F8528FE7628007AB36F /* BasicHuggingPriority_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */; };
@@ -59,6 +60,7 @@
 		D0536E0128FE8C20008A2B06 /* MainProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocolViewController.swift; sourceTree = "<group>"; };
 		D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStringConvertiblePractice.swift; sourceTree = "<group>"; };
 		D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPractice.swift; sourceTree = "<group>"; };
+		D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentablePractice.swift; sourceTree = "<group>"; };
 		D0869F7928FE5506007AB36F /* ModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTableViewController.swift; sourceTree = "<group>"; };
 		D0869F8228FE7563007AB36F /* Constraint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Constraint.storyboard; sourceTree = "<group>"; };
 		D0869F8428FE7628007AB36F /* BasicHuggingPriority_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHuggingPriority_ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				D0536E0128FE8C20008A2B06 /* MainProtocolViewController.swift */,
 				D0536E0728FE8F07008A2B06 /* ProtocolPractice.swift */,
 				D0536E0328FE8CE5008A2B06 /* CustomStringConvertiblePractice.swift */,
+				D0536E0F28FEA1E9008A2B06 /* RawRepresentablePractice.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				D0ECEE6E28BC8FDB0085F554 /* MainTableViewController.swift in Sources */,
 				D0A8109728F6B21200D477C8 /* RotatableView_ViewController.swift in Sources */,
 				D0269F0C28BF0383007272EE /* NestedGroupsViewController.swift in Sources */,
+				D0536E1028FEA1E9008A2B06 /* RawRepresentablePractice.swift in Sources */,
 				D0ECEE7128BC90530085F554 /* GridViewController.swift in Sources */,
 				D0C412BD28BC94B100590712 /* MainCollectionViewTableViewController.swift in Sources */,
 				D0536DFF28FE8AD7008A2B06 /* RegularExpressionPractice.swift in Sources */,

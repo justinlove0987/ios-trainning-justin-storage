@@ -14,7 +14,8 @@ class MainProtocolViewController: ModelTableViewController {
 
         presentingViewControllers = [
             CustomStringConvertiblePractice(),
-            ProtocolPractice()
+            ProtocolPractice(),
+            RawRepresentablePractice()
         ]
         
     }
