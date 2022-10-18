@@ -13,7 +13,7 @@ class ErrorPractice: UIViewController {
         super.viewDidLoad()
 
         // 請實作一個throwing error的例子
-        let loginResult = try? login(username: "")
+        // let loginResult = try? login(username: "")
         // print(loginResult)
 
     }
